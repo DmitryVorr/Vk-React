@@ -1,0 +1,22 @@
+.thischat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding: 30%;
+    border-left: 1px solid #424242;;;
+}
+
+.thischat-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-icon{
+    width: 60px;
+    height: 60px;
+}

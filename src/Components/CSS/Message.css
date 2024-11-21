@@ -1,0 +1,50 @@
+.fullchats {width: 40%; height: 100%; display: flex; flex-direction: column; margin-top: 20px; margin-left: 20px; margin-right: 20px;}
+.chatpannel1 {display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px;}
+.chats-menu {display: flex; flex-direction: row; align-items: center; color: #ffffff; font-weight: bold;}
+.chatpannel1-button {height: 25px; width: 25px; background-color: #22222200; border: none; cursor: pointer; margin-right: 6px;}
+.chatpannel1-button:hover {background-color: #4242423e; border-radius: 5px;}
+.chatpannel1-button-icons {filter: invert(60%) sepia(50%) saturate(4191%) hue-rotate(161deg) brightness(104%) contrast(104%);}
+.chatpannel2 {margin-bottom: 20px;}
+.searchMessage {width: 100%; height: 30px; background-color: #424242; border-radius: 10px; border: none;}
+.chatpannel3 {display: flex;flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 10px;}
+.chatpanel3-button {
+    width: 65px;
+    height: 33px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.chatpanel3-1-button {width: 33px; height: 33px; background: none; border: none; font-size: 14px; padding: 5px; font-weight: bold; cursor: pointer; color: #ffffff; border-radius: 10px;}
+.chatpannel3-active{
+    width: 65px;
+    height: 33px;
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    border: none;
+}
+.chatpannel3 button:hover {background-color: #4a4a4a;}
+.chatpannel3-button-icons {filter: invert(60%) sepia(50%) saturate(4191%) hue-rotate(161deg) brightness(104%) contrast(104%);}
+.chats {display: flex; flex-direction: column; margin-top: 10px;}
+.chat {width: 100%; display: flex; flex-direction: row; align-items: center; margin-bottom: 5px; padding: 5px; justify-content: space-between;}
+.chat:hover{background-color: #4242423e; border-radius: 5px;}
+.message-info{display: flex; flex-direction: row; align-items: center;}
+.friend-avatar {display: flex; justify-content: center; height: 50px; width: 50px; border-radius: 50%; background-color: #47aeea; align-items: center; margin-right: 10px;}
+.message-info{display: flex; flex-direction: row; justify-content: flex-end;}
+.last-info{display: flex; flex-direction: column; color: white;}
+.last-message{display: flex; flex-direction: row; margin-top: 5px;}
+.p1{color: #47aeea; margin-left: 5px;}
+.point{margin-left: 5px; margin-right: 5px;}
+.chat-info{display: flex;flex-direction: column;justify-content: space-between;}

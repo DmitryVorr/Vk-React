@@ -1,0 +1,208 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newposts {
+    width: 60%;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #424242;
+}
+
+.newposts-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    /* Тень внутри */
+    color: #ff6d37;
+    background-color: #222;
+}
+
+.newposts-buttons button {
+    height: 25px;
+    width: 25px;
+    background-color: #222;
+    border: none;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.newposts-icons {
+    filter: brightness(0) saturate(100%) invert(92%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(80%) contrast(90%);
+}
+
+.first-post {
+    width: 60%;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #424242;
+}
+
+.first-post-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.firsts-post-sections-menu {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.firsts-post-sections-menu button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #808080;
+}
+
+.firsts-post-sections-menu button:hover {
+    background-color: #4a4a4a;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.firsts-post-sections-menu button.active {
+    background-color: #4a4a4a;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.first-icon{
+    filter: brightness(0) saturate(100%) invert(92%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(80%) contrast(90%);
+}
+
+.post {
+    width: 100%;
+    flex-direction: column;
+    background-color: #222;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    border: 1px solid #424242;
+
+}
+
+.post-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-profile-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.posts-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profilename {
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.postname{
+    filter: invert(60%) sepia(50%) saturate(4191%) hue-rotate(161deg) brightness(104%) contrast(104%);
+    text-decoration: none;
+}
+
+.postname:hover{
+    text-decoration: underline;
+}
+
+.post-status{
+    color: #ffffff;
+    gap: 1px;
+}
+
+.post-napolnenie {
+    width: 100%;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.post-reaction{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.reaction button{
+    width: 75px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: none;
+    border-radius: 20px; /* Без границы */
+    color: #ffffff; /* Черный текст */
+    margin-right: 10px;
+    text-align: center; /* Выравнивание по центру */
+    text-decoration: none; /* Без подчеркивания */
+    display: flex; /* В строку и с помощью flexbox для выравнивания */
+    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center;
+    font-size: 14px; /* Размер шрифта */
+    cursor: pointer; /* Указатель мыши */
+}
+
+.reaction button:hover{
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.viewers{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.viewers img{
+    width: 24px;
+    height: 24px;
+}

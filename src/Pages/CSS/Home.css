@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+}
+
+.bodybox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+
+.fullpageHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 0 18%;
+}
+
+.Posts{
+    padding-left: 27.5%;
+    padding-right: 14.2%;
+    justify-content: center;
+}
